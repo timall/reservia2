@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'raleway';
+    src: url('font/Raleway-VariableFont_wght.ttf');
+}
+
+* {
+    font-family: 'raleway';
+    margin-left: 10px;
+}
+
+    
+
+
+
+
+#Filtre {
+    color: white;
+    display: flex;
+    
+
+}
+.fa-map-marker{
+    border: 2px solid rgb(192, 189, 189) ;
+    border-radius: 20px;  
+    color: black;
+    background-color: rgb(156, 156, 156);
+}
+
+.fa, .fas {
+    color: rgb(30, 3, 180);
+    display:flex
+}
+.fa-info-circle{
+    color:gray
+}
+#familly{
+    display: flex;
+    height: 50%;
+}
+#Filtre .familly {
+    border: 4px solid ;
+    border-radius: 20px;  
+    background-color: rgb(155, 181, 238);
+    display: flex;
+    
+    
+    
+}
+
+footer {
+    display: flex;
+    background-color: rgb(223, 221, 221);
+   width: 72%;
+}
+
+#colonne {
+    justify-content: space-between;
+    
+}
+.colonne{
+    width: 400px;
+}
+header nav {
+    list-style-type: none;
+    display: flex;
+    margin-left: 550px;
+}
+
+#activity {
+    list-style-type: none;
+    display: block;
+    
+}
+
+main {
+    display: flex;
+}
+
+br {
+    height: 5px;
+}
+
+
+
+#resultats {
+    background: rgb(223, 221, 221);
+    width:40%
+}
+
+#related {
+    background-color: rgb(223, 221, 221);
+    margin-left: 10px;
+    margin-right: 50px;
+    flex-wrap: wrap;
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 25%;
+    padding-bottom:10px ;
+}
+
+#annonces {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: blue;
+    background-size: cover;
+    
+
+    
+}
+
+h3 {
+    color: black;
+}
+
+.annonce {
+    background-color: white;
+    border: 4px solid white;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('appart.jpg');
+}
+
+.star {
+    color: blue;
+}
+
+#related .annonce {
+    flex-wrap: wrap;
+    color: blue;
+    display:flex
+}
+
+}
+
+
+ #familly.familly .input {
+    display: flex;
+    border: 4px solid;
+    border-radius: 10px; 
+}
+.input{
+    border: 4px solid;
+    border-radius: 10px;  
+}
+
+p {
+    font-weight: normal;
+    color: black;
+}
+
+#activities {
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 10px;
+    width: 76%;
+}
+
+.activity {
+    width: 33%;
+    margin-left: 10 px;
+    border-radius: 20px;
+    box-shadow: grey;
+    border: 10px solid white;
+    
+    
+}
+
+.imageflottante {
+    float: left;
+}
